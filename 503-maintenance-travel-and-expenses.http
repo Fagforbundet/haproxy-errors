@@ -1,0 +1,74 @@
+HTTP/1.0 503 Service Unavailable
+Cache-Control: no-cache
+Connection: close
+Content-Type: text/html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fagforbundet</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700" rel="stylesheet">
+    <style type="text/css">
+        body {
+            background-color: #FAF8F4;
+            font-family: 'Source Sans Pro', sans-serif;
+        }
+
+        h1 {
+            color: #3C3C3B;
+            font-weight: bold;
+            font-size: 36px;
+            margin-bottom: 0;
+        }
+
+        p {
+            color: #3C3C3B;
+            font-size: 20px;
+            max-width: 850px;
+        }
+
+        div.container {
+            width: 95%;
+            padding-bottom: 20%;
+            margin-top: 15%;
+            margin-left: auto;
+            margin-right: auto;
+            background: transparent url(https://s3.eu-central-1.amazonaws.com/fagforbundet-error-pages/images/hjertet.png) no-repeat;
+            background-position: bottom left;
+            background-size: 100%;
+        }
+
+        div.container p.code {
+            font-size: 80%;
+        }
+    </style>
+    <!-- Start of fagforbundet Zendesk Widget script -->
+    <script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=8f69faf6-0383-4fee-bcae-7c79ed9df87a"> </script>
+    <!-- End of fagforbundet Zendesk Widget script -->
+    <script>
+        window.zESettings = {
+            webWidget: {
+                position: {
+                    horizontal: 'left',
+                    vertical: 'bottom'
+                }
+            }
+        };
+        zE(function() {
+            zE.setLocale('no');
+        });
+    </script>
+</head>
+<body>
+<div class="container">
+    <h1>Vedlikehold</h1>
+    <p>
+        Unit4 Travel & Expenses er stengt. Dette fordi systemet skal gjøres klart for 2020. Oppdateringer.<br />
+        Åpner igjen over nyttår.
+    </p>
+    <p class="code">HTTP-feilkode: 503 Service Unavailable</p>
+</div>
+</body>
+</html>
